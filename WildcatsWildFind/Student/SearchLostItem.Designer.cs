@@ -51,16 +51,16 @@
             pbxMin = new PictureBox();
             pbxMax = new PictureBox();
             pbxClose = new PictureBox();
-            pictureBox1 = new PictureBox();
+            pbxSearch = new PictureBox();
             pbxFilterItem = new PictureBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            tbxSearch = new Guna.UI2.WinForms.Guna2TextBox();
             guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
+            pbxNext1 = new PictureBox();
+            pbxPrev1 = new PictureBox();
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            pictureBox5 = new PictureBox();
+            pbxPrev2 = new PictureBox();
             guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            pictureBox6 = new PictureBox();
+            pbxNext2 = new PictureBox();
             guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -92,15 +92,15 @@
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbxSearch).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxFilterItem).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbxNext1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbxPrev1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbxPrev2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbxNext2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox5).BeginInit();
             panel1.SuspendLayout();
             guna2CustomGradientPanel4.SuspendLayout();
@@ -148,16 +148,16 @@
             pbxClose.TabStop = false;
             pbxClose.Click += pbxClose_Click;
             // 
-            // pictureBox1
+            // pbxSearch
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = Properties.Resources.search__4_;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(336, 194);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(44, 46);
-            pictureBox1.TabIndex = 16;
-            pictureBox1.TabStop = false;
+            pbxSearch.BackColor = Color.Transparent;
+            pbxSearch.BackgroundImage = Properties.Resources.search__4_;
+            pbxSearch.BackgroundImageLayout = ImageLayout.Stretch;
+            pbxSearch.Location = new Point(336, 194);
+            pbxSearch.Name = "pbxSearch";
+            pbxSearch.Size = new Size(44, 46);
+            pbxSearch.TabIndex = 16;
+            pbxSearch.TabStop = false;
             // 
             // pbxFilterItem
             // 
@@ -171,27 +171,27 @@
             pbxFilterItem.TabStop = false;
             pbxFilterItem.Click += pbxFilterItem_Click;
             // 
-            // guna2TextBox1
+            // tbxSearch
             // 
-            guna2TextBox1.CustomizableEdges = customizableEdges19;
-            guna2TextBox1.DefaultText = "Search Item Here";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = Color.FromArgb(241, 234, 234);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(405, 194);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2TextBox1.Size = new Size(636, 46);
-            guna2TextBox1.TabIndex = 18;
+            tbxSearch.CustomizableEdges = customizableEdges19;
+            tbxSearch.DefaultText = "Search Item Here";
+            tbxSearch.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxSearch.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxSearch.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxSearch.FillColor = Color.FromArgb(241, 234, 234);
+            tbxSearch.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxSearch.Font = new Font("Segoe UI", 9F);
+            tbxSearch.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxSearch.Location = new Point(405, 194);
+            tbxSearch.Margin = new Padding(3, 4, 3, 4);
+            tbxSearch.Name = "tbxSearch";
+            tbxSearch.PasswordChar = '\0';
+            tbxSearch.PlaceholderText = "";
+            tbxSearch.SelectedText = "";
+            tbxSearch.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            tbxSearch.Size = new Size(636, 46);
+            tbxSearch.TabIndex = 18;
             // 
             // guna2PictureBox10
             // 
@@ -206,27 +206,27 @@
             guna2PictureBox10.TabIndex = 28;
             guna2PictureBox10.TabStop = false;
             // 
-            // pictureBox3
+            // pbxNext1
             // 
-            pictureBox3.BackColor = Color.Transparent;
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(1349, 480);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(15, 30);
-            pictureBox3.TabIndex = 29;
-            pictureBox3.TabStop = false;
+            pbxNext1.BackColor = Color.Transparent;
+            pbxNext1.BackgroundImage = (Image)resources.GetObject("pbxNext1.BackgroundImage");
+            pbxNext1.BackgroundImageLayout = ImageLayout.Stretch;
+            pbxNext1.Location = new Point(1349, 480);
+            pbxNext1.Name = "pbxNext1";
+            pbxNext1.Size = new Size(15, 30);
+            pbxNext1.TabIndex = 29;
+            pbxNext1.TabStop = false;
             // 
-            // pictureBox4
+            // pbxPrev1
             // 
-            pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox4.Location = new Point(122, 480);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(15, 30);
-            pictureBox4.TabIndex = 31;
-            pictureBox4.TabStop = false;
+            pbxPrev1.BackColor = Color.Transparent;
+            pbxPrev1.BackgroundImage = (Image)resources.GetObject("pbxPrev1.BackgroundImage");
+            pbxPrev1.BackgroundImageLayout = ImageLayout.Stretch;
+            pbxPrev1.Location = new Point(122, 480);
+            pbxPrev1.Name = "pbxPrev1";
+            pbxPrev1.Size = new Size(15, 30);
+            pbxPrev1.TabIndex = 31;
+            pbxPrev1.TabStop = false;
             // 
             // guna2PictureBox2
             // 
@@ -241,16 +241,16 @@
             guna2PictureBox2.TabIndex = 30;
             guna2PictureBox2.TabStop = false;
             // 
-            // pictureBox5
+            // pbxPrev2
             // 
-            pictureBox5.BackColor = Color.Transparent;
-            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox5.Location = new Point(122, 845);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(15, 30);
-            pictureBox5.TabIndex = 39;
-            pictureBox5.TabStop = false;
+            pbxPrev2.BackColor = Color.Transparent;
+            pbxPrev2.BackgroundImage = (Image)resources.GetObject("pbxPrev2.BackgroundImage");
+            pbxPrev2.BackgroundImageLayout = ImageLayout.Stretch;
+            pbxPrev2.Location = new Point(122, 845);
+            pbxPrev2.Name = "pbxPrev2";
+            pbxPrev2.Size = new Size(15, 30);
+            pbxPrev2.TabIndex = 39;
+            pbxPrev2.TabStop = false;
             // 
             // guna2PictureBox4
             // 
@@ -265,16 +265,16 @@
             guna2PictureBox4.TabIndex = 38;
             guna2PictureBox4.TabStop = false;
             // 
-            // pictureBox6
+            // pbxNext2
             // 
-            pictureBox6.BackColor = Color.Transparent;
-            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
-            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox6.Location = new Point(1349, 845);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(15, 30);
-            pictureBox6.TabIndex = 37;
-            pictureBox6.TabStop = false;
+            pbxNext2.BackColor = Color.Transparent;
+            pbxNext2.BackgroundImage = (Image)resources.GetObject("pbxNext2.BackgroundImage");
+            pbxNext2.BackgroundImageLayout = ImageLayout.Stretch;
+            pbxNext2.Location = new Point(1349, 845);
+            pbxNext2.Name = "pbxNext2";
+            pbxNext2.Size = new Size(15, 30);
+            pbxNext2.TabIndex = 37;
+            pbxNext2.TabStop = false;
             // 
             // guna2PictureBox5
             // 
@@ -585,17 +585,17 @@
             Controls.Add(panel1);
             Controls.Add(guna2HtmlLabel2);
             Controls.Add(guna2HtmlLabel1);
-            Controls.Add(pictureBox5);
+            Controls.Add(pbxPrev2);
             Controls.Add(guna2PictureBox4);
-            Controls.Add(pictureBox6);
+            Controls.Add(pbxNext2);
             Controls.Add(guna2PictureBox5);
-            Controls.Add(pictureBox4);
+            Controls.Add(pbxPrev1);
             Controls.Add(guna2PictureBox2);
-            Controls.Add(pictureBox3);
+            Controls.Add(pbxNext1);
             Controls.Add(guna2PictureBox10);
-            Controls.Add(guna2TextBox1);
+            Controls.Add(tbxSearch);
             Controls.Add(pbxFilterItem);
-            Controls.Add(pictureBox1);
+            Controls.Add(pbxSearch);
             Controls.Add(pbxMin);
             Controls.Add(pbxMax);
             Controls.Add(pbxClose);
@@ -608,15 +608,15 @@
             ((System.ComponentModel.ISupportInitialize)pbxMin).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbxSearch).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxFilterItem).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbxNext1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbxPrev1).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbxPrev2).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbxNext2).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox5).EndInit();
             panel1.ResumeLayout(false);
             guna2CustomGradientPanel4.ResumeLayout(false);
@@ -642,16 +642,16 @@
         private PictureBox pbxMin;
         private PictureBox pbxMax;
         private PictureBox pbxClose;
-        private PictureBox pictureBox1;
+        private PictureBox pbxSearch;
         private PictureBox pbxFilterItem;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox tbxSearch;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
+        private PictureBox pbxNext1;
+        private PictureBox pbxPrev1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private PictureBox pictureBox5;
+        private PictureBox pbxPrev2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
-        private PictureBox pictureBox6;
+        private PictureBox pbxNext2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
