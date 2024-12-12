@@ -49,5 +49,10 @@ namespace WildcatsWildFind
         {
             Application.Exit();
         }
+
+        private void SearchLostItem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
