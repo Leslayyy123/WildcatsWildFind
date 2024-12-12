@@ -22,8 +22,8 @@ namespace WildcatsWildFind
         {
             if (FilterbarExpand)
             {
-                gunaFilterItemBar.Height -= 10;
-                if (gunaFilterItemBar.Height == gunaFilterItemBar.MinimumSize.Height)
+                plFilterItemBar.Height -= 10;
+                if (plFilterItemBar.Height == plFilterItemBar.MinimumSize.Height)
                 {
                     FilterbarExpand = false;
                     FilterItemTimer.Stop();
@@ -31,8 +31,8 @@ namespace WildcatsWildFind
             }
             else
             {
-                gunaFilterItemBar.Height += 10;
-                if (gunaFilterItemBar.Height == gunaFilterItemBar.MaximumSize.Height)
+                plFilterItemBar.Height += 10;
+                if (plFilterItemBar.Height == plFilterItemBar.MaximumSize.Height)
                 {
                     FilterbarExpand = true;
                     FilterItemTimer.Stop();
@@ -43,6 +43,11 @@ namespace WildcatsWildFind
         private void pbxFilterItem_Click(object sender, EventArgs e)
         {
             FilterItemTimer.Start();
+        }
+
+        private void pbxClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
