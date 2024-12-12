@@ -45,9 +45,10 @@
             pbxClose.BackColor = Color.Transparent;
             pbxClose.BackgroundImage = Properties.Resources.close__2_;
             pbxClose.BackgroundImageLayout = ImageLayout.Stretch;
-            pbxClose.Location = new Point(1403, 14);
+            pbxClose.Location = new Point(1228, 10);
+            pbxClose.Margin = new Padding(3, 2, 3, 2);
             pbxClose.Name = "pbxClose";
-            pbxClose.Size = new Size(25, 25);
+            pbxClose.Size = new Size(22, 19);
             pbxClose.TabIndex = 10;
             pbxClose.TabStop = false;
             pbxClose.Click += pbxClose_Click;
@@ -57,9 +58,10 @@
             pbxMax.BackColor = Color.Transparent;
             pbxMax.BackgroundImage = (Image)resources.GetObject("pbxMax.BackgroundImage");
             pbxMax.BackgroundImageLayout = ImageLayout.Stretch;
-            pbxMax.Location = new Point(1364, 12);
+            pbxMax.Location = new Point(1194, 9);
+            pbxMax.Margin = new Padding(3, 2, 3, 2);
             pbxMax.Name = "pbxMax";
-            pbxMax.Size = new Size(24, 28);
+            pbxMax.Size = new Size(21, 21);
             pbxMax.TabIndex = 11;
             pbxMax.TabStop = false;
             pbxMax.Click += pbxMax_Click;
@@ -69,9 +71,10 @@
             pbxMin.BackColor = Color.Transparent;
             pbxMin.BackgroundImage = (Image)resources.GetObject("pbxMin.BackgroundImage");
             pbxMin.BackgroundImageLayout = ImageLayout.Stretch;
-            pbxMin.Location = new Point(1325, 12);
+            pbxMin.Location = new Point(1159, 9);
+            pbxMin.Margin = new Padding(3, 2, 3, 2);
             pbxMin.Name = "pbxMin";
-            pbxMin.Size = new Size(24, 28);
+            pbxMin.Size = new Size(21, 21);
             pbxMin.TabIndex = 12;
             pbxMin.TabStop = false;
             pbxMin.Click += pbxMin_Click;
@@ -91,29 +94,31 @@
             btnDashboard.FillColor2 = Color.FromArgb(153, 129, 0);
             btnDashboard.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDashboard.ForeColor = Color.White;
-            btnDashboard.Location = new Point(563, 738);
+            btnDashboard.Location = new Point(493, 554);
+            btnDashboard.Margin = new Padding(3, 2, 3, 2);
             btnDashboard.Name = "btnDashboard";
             btnDashboard.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnDashboard.Size = new Size(336, 60);
+            btnDashboard.Size = new Size(294, 45);
             btnDashboard.TabIndex = 15;
             btnDashboard.Text = "Go to Dashboard";
             btnDashboard.Click += guna2GradientButton1_Click;
             // 
             // HomePage
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Home_Page__1_;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1440, 1024);
+            ClientSize = new Size(1260, 768);
             Controls.Add(pbxMin);
             Controls.Add(pbxMax);
             Controls.Add(pbxClose);
             Controls.Add(btnDashboard);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "HomePage";
-            Padding = new Padding(10);
+            Padding = new Padding(9, 8, 9, 8);
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += HomePage_Load;
