@@ -7,16 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WildcatsWildFind.Student;
 
 namespace WildcatsWildFind
 {
     public partial class SearchLostItem : Form
     {
         bool FilterbarExpand;
+        public Items ucItems;
         public SearchLostItem()
         {
             InitializeComponent();
-
+            ucItems = new Items();
+            Container1.Controls.Add(ucItems);
         }
 
         private void FilterItemTimer_Tick(object sender, EventArgs e)
