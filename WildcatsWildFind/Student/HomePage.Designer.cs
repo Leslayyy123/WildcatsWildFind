@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pbxClose = new PictureBox();
             pbxMax = new PictureBox();
             pbxMin = new PictureBox();
-            btnGoToDashboard = new Guna.UI2.WinForms.Guna2GradientButton();
+            guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
@@ -76,27 +76,27 @@
             pbxMin.TabStop = false;
             pbxMin.Click += pbxMin_Click;
             // 
-            // btnGoToDashboard
+            // guna2GradientButton1
             // 
-            btnGoToDashboard.BackColor = Color.Transparent;
-            btnGoToDashboard.BorderColor = Color.Transparent;
-            btnGoToDashboard.BorderRadius = 15;
-            btnGoToDashboard.CustomizableEdges = customizableEdges3;
-            btnGoToDashboard.DisabledState.BorderColor = Color.DarkGray;
-            btnGoToDashboard.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnGoToDashboard.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnGoToDashboard.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnGoToDashboard.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnGoToDashboard.FillColor = Color.Gold;
-            btnGoToDashboard.FillColor2 = Color.FromArgb(153, 129, 0);
-            btnGoToDashboard.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnGoToDashboard.ForeColor = Color.White;
-            btnGoToDashboard.Location = new Point(563, 738);
-            btnGoToDashboard.Name = "btnGoToDashboard";
-            btnGoToDashboard.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnGoToDashboard.Size = new Size(336, 60);
-            btnGoToDashboard.TabIndex = 15;
-            btnGoToDashboard.Text = "Go to Dashboard";
+            guna2GradientButton1.BackColor = Color.Transparent;
+            guna2GradientButton1.BorderColor = Color.Transparent;
+            guna2GradientButton1.BorderRadius = 15;
+            guna2GradientButton1.CustomizableEdges = customizableEdges1;
+            guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton1.FillColor = Color.Gold;
+            guna2GradientButton1.FillColor2 = Color.FromArgb(153, 129, 0);
+            guna2GradientButton1.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2GradientButton1.ForeColor = Color.White;
+            guna2GradientButton1.Location = new Point(563, 738);
+            guna2GradientButton1.Name = "guna2GradientButton1";
+            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2GradientButton1.Size = new Size(336, 60);
+            guna2GradientButton1.TabIndex = 15;
+            guna2GradientButton1.Text = "Go to Dashboard";
             // 
             // HomePage
             // 
@@ -108,7 +108,7 @@
             Controls.Add(pbxMin);
             Controls.Add(pbxMax);
             Controls.Add(pbxClose);
-            Controls.Add(btnGoToDashboard);
+            Controls.Add(guna2GradientButton1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "HomePage";
@@ -126,6 +126,6 @@
         private PictureBox pbxClose;
         private PictureBox pbxMax;
         private PictureBox pbxMin;
-        private Guna.UI2.WinForms.Guna2GradientButton btnGoToDashboard;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
     }
 }

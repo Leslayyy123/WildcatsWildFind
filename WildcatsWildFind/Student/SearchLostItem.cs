@@ -49,27 +49,5 @@ namespace WildcatsWildFind
         {
             Application.Exit();
         }
-
-        private void pbxMin_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void pbxMax_Click(object sender, EventArgs e)
-        {
-            if (this.WindowState == FormWindowState.Normal)
-            {
-                this.WindowState = FormWindowState.Maximized;
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Normal;
-            }
-        }
-
-        private void plFilterItemBar_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
     }
 }
