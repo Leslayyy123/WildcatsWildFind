@@ -7,26 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WildcatsWildFind.Student;
 
-namespace WildcatsWildFind
+namespace WildcatsWildFind.Student
 {
-    public partial class SearchLostItem : Form
+    public partial class NoItemFound : Form
     {
         bool FilterbarExpand;
-
-        public SearchLostItem()
+        public NoItemFound()
         {
             InitializeComponent();
-
         }
 
         private void FilterItemTimer_Tick(object sender, EventArgs e)
         {
             if (FilterbarExpand)
             {
-                plFilterItemBar.Height -= 10;
-                if (plFilterItemBar.Height == plFilterItemBar.MinimumSize.Height)
+                gunaFilterItemBar.Height -= 10;
+                if (gunaFilterItemBar.Height == gunaFilterItemBar.MinimumSize.Height)
                 {
                     FilterbarExpand = false;
                     FilterItemTimer.Stop();
@@ -34,8 +31,8 @@ namespace WildcatsWildFind
             }
             else
             {
-                plFilterItemBar.Height += 10;
-                if (plFilterItemBar.Height == plFilterItemBar.MaximumSize.Height)
+                gunaFilterItemBar.Height += 10;
+                if (gunaFilterItemBar.Height == gunaFilterItemBar.MaximumSize.Height)
                 {
                     FilterbarExpand = true;
                     FilterItemTimer.Stop();
@@ -43,7 +40,7 @@ namespace WildcatsWildFind
             }
         }
 
-        private void pbxFilterItem_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             FilterItemTimer.Start();
         }
@@ -51,23 +48,6 @@ namespace WildcatsWildFind
         private void pbxClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void SearchLostItem_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbxSearch_TextChanged(object sender, EventArgs e)
-        {
-
-            tbxSearch.Text = tbxSearch.Text.Trim();
-
-        }
-
-        private void pbxMin_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
 
         private void pbxMax_Click(object sender, EventArgs e)
@@ -82,9 +62,9 @@ namespace WildcatsWildFind
             }
         }
 
-        private void pbxSearch_Click(object sender, EventArgs e)
+        private void pbxMin_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
