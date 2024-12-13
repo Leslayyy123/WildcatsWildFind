@@ -28,5 +28,17 @@ namespace WildcatsWildFind
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            SearchLostItem searchlostitem = new SearchLostItem();
+            searchlostitem.Show();
+            this.Hide();
+        }
     }
 }

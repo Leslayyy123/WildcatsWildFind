@@ -16,6 +16,7 @@ namespace WildcatsWildFind
         public SearchLostItem()
         {
             InitializeComponent();
+
         }
 
         private void FilterItemTimer_Tick(object sender, EventArgs e)
@@ -48,6 +49,28 @@ namespace WildcatsWildFind
         private void pbxClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void SearchLostItem_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+
+            tbxSearch.Text = tbxSearch.Text.Trim();
+
+        }
+
+        private void pbxMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pbxMax_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

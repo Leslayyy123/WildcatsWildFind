@@ -48,18 +48,18 @@
             pbxMin = new PictureBox();
             pbxMax = new PictureBox();
             pbxClose = new PictureBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            pictureBox1 = new PictureBox();
+            tbxName = new Guna.UI2.WinForms.Guna2TextBox();
+            tbxPNum = new Guna.UI2.WinForms.Guna2TextBox();
+            tbxDLost = new Guna.UI2.WinForms.Guna2TextBox();
+            tbxItemDesc = new Guna.UI2.WinForms.Guna2TextBox();
+            tbnSubmit = new Guna.UI2.WinForms.Guna2GradientButton();
+            btnBack = new Guna.UI2.WinForms.Guna2GradientButton();
+            pbxAdd = new PictureBox();
             pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbxAdd).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -144,156 +144,156 @@
             pbxClose.TabIndex = 13;
             pbxClose.TabStop = false;
             // 
-            // guna2TextBox1
+            // tbxName
             // 
-            guna2TextBox1.BackColor = Color.Transparent;
-            guna2TextBox1.BorderRadius = 15;
-            guna2TextBox1.CustomizableEdges = customizableEdges13;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = Color.FromArgb(90, 0, 0);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(76, 359);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2TextBox1.Size = new Size(602, 46);
-            guna2TextBox1.TabIndex = 18;
+            tbxName.BackColor = Color.Transparent;
+            tbxName.BorderRadius = 15;
+            tbxName.CustomizableEdges = customizableEdges13;
+            tbxName.DefaultText = "";
+            tbxName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxName.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxName.FillColor = Color.FromArgb(90, 0, 0);
+            tbxName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxName.Font = new Font("Segoe UI", 9F);
+            tbxName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxName.Location = new Point(76, 359);
+            tbxName.Margin = new Padding(3, 4, 3, 4);
+            tbxName.Name = "tbxName";
+            tbxName.PasswordChar = '\0';
+            tbxName.PlaceholderText = "";
+            tbxName.SelectedText = "";
+            tbxName.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            tbxName.Size = new Size(602, 46);
+            tbxName.TabIndex = 18;
             // 
-            // guna2TextBox2
+            // tbxPNum
             // 
-            guna2TextBox2.BackColor = Color.Transparent;
-            guna2TextBox2.BorderRadius = 15;
-            guna2TextBox2.CustomizableEdges = customizableEdges15;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FillColor = Color.FromArgb(90, 0, 0);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 9F);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(76, 461);
-            guna2TextBox2.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderText = "";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2TextBox2.Size = new Size(602, 46);
-            guna2TextBox2.TabIndex = 19;
+            tbxPNum.BackColor = Color.Transparent;
+            tbxPNum.BorderRadius = 15;
+            tbxPNum.CustomizableEdges = customizableEdges15;
+            tbxPNum.DefaultText = "";
+            tbxPNum.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxPNum.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxPNum.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxPNum.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxPNum.FillColor = Color.FromArgb(90, 0, 0);
+            tbxPNum.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxPNum.Font = new Font("Segoe UI", 9F);
+            tbxPNum.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxPNum.Location = new Point(76, 461);
+            tbxPNum.Margin = new Padding(3, 4, 3, 4);
+            tbxPNum.Name = "tbxPNum";
+            tbxPNum.PasswordChar = '\0';
+            tbxPNum.PlaceholderText = "";
+            tbxPNum.SelectedText = "";
+            tbxPNum.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            tbxPNum.Size = new Size(602, 46);
+            tbxPNum.TabIndex = 19;
             // 
-            // guna2TextBox3
+            // tbxDLost
             // 
-            guna2TextBox3.BackColor = Color.Transparent;
-            guna2TextBox3.BorderRadius = 15;
-            guna2TextBox3.CustomizableEdges = customizableEdges17;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FillColor = Color.FromArgb(90, 0, 0);
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new Font("Segoe UI", 9F);
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(76, 572);
-            guna2TextBox3.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PasswordChar = '\0';
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2TextBox3.Size = new Size(602, 46);
-            guna2TextBox3.TabIndex = 20;
+            tbxDLost.BackColor = Color.Transparent;
+            tbxDLost.BorderRadius = 15;
+            tbxDLost.CustomizableEdges = customizableEdges17;
+            tbxDLost.DefaultText = "";
+            tbxDLost.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxDLost.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxDLost.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxDLost.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxDLost.FillColor = Color.FromArgb(90, 0, 0);
+            tbxDLost.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxDLost.Font = new Font("Segoe UI", 9F);
+            tbxDLost.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxDLost.Location = new Point(76, 572);
+            tbxDLost.Margin = new Padding(3, 4, 3, 4);
+            tbxDLost.Name = "tbxDLost";
+            tbxDLost.PasswordChar = '\0';
+            tbxDLost.PlaceholderText = "";
+            tbxDLost.SelectedText = "";
+            tbxDLost.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            tbxDLost.Size = new Size(602, 46);
+            tbxDLost.TabIndex = 20;
             // 
-            // guna2TextBox4
+            // tbxItemDesc
             // 
-            guna2TextBox4.BackColor = Color.Transparent;
-            guna2TextBox4.BorderRadius = 15;
-            guna2TextBox4.CustomizableEdges = customizableEdges19;
-            guna2TextBox4.DefaultText = "";
-            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.FillColor = Color.FromArgb(90, 0, 0);
-            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Font = new Font("Segoe UI", 9F);
-            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(76, 692);
-            guna2TextBox4.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox4.Name = "guna2TextBox4";
-            guna2TextBox4.PasswordChar = '\0';
-            guna2TextBox4.PlaceholderText = "";
-            guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2TextBox4.Size = new Size(602, 123);
-            guna2TextBox4.TabIndex = 21;
+            tbxItemDesc.BackColor = Color.Transparent;
+            tbxItemDesc.BorderRadius = 15;
+            tbxItemDesc.CustomizableEdges = customizableEdges19;
+            tbxItemDesc.DefaultText = "";
+            tbxItemDesc.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxItemDesc.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxItemDesc.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxItemDesc.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxItemDesc.FillColor = Color.FromArgb(90, 0, 0);
+            tbxItemDesc.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxItemDesc.Font = new Font("Segoe UI", 9F);
+            tbxItemDesc.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxItemDesc.Location = new Point(76, 692);
+            tbxItemDesc.Margin = new Padding(3, 4, 3, 4);
+            tbxItemDesc.Name = "tbxItemDesc";
+            tbxItemDesc.PasswordChar = '\0';
+            tbxItemDesc.PlaceholderText = "";
+            tbxItemDesc.SelectedText = "";
+            tbxItemDesc.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            tbxItemDesc.Size = new Size(602, 123);
+            tbxItemDesc.TabIndex = 21;
             // 
-            // guna2GradientButton1
+            // tbnSubmit
             // 
-            guna2GradientButton1.BackColor = Color.Transparent;
-            guna2GradientButton1.BorderColor = Color.Transparent;
-            guna2GradientButton1.BorderRadius = 5;
-            guna2GradientButton1.CustomizableEdges = customizableEdges21;
-            guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton1.FillColor = Color.FromArgb(177, 8, 8);
-            guna2GradientButton1.FillColor2 = Color.FromArgb(112, 33, 33);
-            guna2GradientButton1.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2GradientButton1.ForeColor = Color.White;
-            guna2GradientButton1.Location = new Point(503, 856);
-            guna2GradientButton1.Name = "guna2GradientButton1";
-            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2GradientButton1.Size = new Size(175, 56);
-            guna2GradientButton1.TabIndex = 22;
-            guna2GradientButton1.Text = "Submit";
+            tbnSubmit.BackColor = Color.Transparent;
+            tbnSubmit.BorderColor = Color.Transparent;
+            tbnSubmit.BorderRadius = 5;
+            tbnSubmit.CustomizableEdges = customizableEdges21;
+            tbnSubmit.DisabledState.BorderColor = Color.DarkGray;
+            tbnSubmit.DisabledState.CustomBorderColor = Color.DarkGray;
+            tbnSubmit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            tbnSubmit.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            tbnSubmit.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            tbnSubmit.FillColor = Color.FromArgb(177, 8, 8);
+            tbnSubmit.FillColor2 = Color.FromArgb(112, 33, 33);
+            tbnSubmit.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbnSubmit.ForeColor = Color.White;
+            tbnSubmit.Location = new Point(503, 856);
+            tbnSubmit.Name = "tbnSubmit";
+            tbnSubmit.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            tbnSubmit.Size = new Size(175, 56);
+            tbnSubmit.TabIndex = 22;
+            tbnSubmit.Text = "Submit";
             // 
-            // guna2GradientButton2
+            // btnBack
             // 
-            guna2GradientButton2.BackColor = Color.Transparent;
-            guna2GradientButton2.BorderColor = Color.Transparent;
-            guna2GradientButton2.BorderRadius = 5;
-            guna2GradientButton2.CustomizableEdges = customizableEdges23;
-            guna2GradientButton2.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientButton2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientButton2.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton2.FillColor = Color.FromArgb(112, 33, 33);
-            guna2GradientButton2.FillColor2 = Color.FromArgb(177, 8, 8);
-            guna2GradientButton2.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2GradientButton2.ForeColor = Color.White;
-            guna2GradientButton2.Location = new Point(304, 856);
-            guna2GradientButton2.Name = "guna2GradientButton2";
-            guna2GradientButton2.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2GradientButton2.Size = new Size(175, 56);
-            guna2GradientButton2.TabIndex = 23;
-            guna2GradientButton2.Text = "Back";
+            btnBack.BackColor = Color.Transparent;
+            btnBack.BorderColor = Color.Transparent;
+            btnBack.BorderRadius = 5;
+            btnBack.CustomizableEdges = customizableEdges23;
+            btnBack.DisabledState.BorderColor = Color.DarkGray;
+            btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnBack.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btnBack.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnBack.FillColor = Color.FromArgb(112, 33, 33);
+            btnBack.FillColor2 = Color.FromArgb(177, 8, 8);
+            btnBack.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnBack.ForeColor = Color.White;
+            btnBack.Location = new Point(304, 856);
+            btnBack.Name = "btnBack";
+            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnBack.Size = new Size(175, 56);
+            btnBack.TabIndex = 23;
+            btnBack.Text = "Back";
             // 
-            // pictureBox1
+            // pbxAdd
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = Properties.Resources.plus__1_;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1321, 845);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(47, 48);
-            pictureBox1.TabIndex = 24;
-            pictureBox1.TabStop = false;
+            pbxAdd.BackColor = Color.Transparent;
+            pbxAdd.BackgroundImage = Properties.Resources.plus__1_;
+            pbxAdd.BackgroundImageLayout = ImageLayout.Stretch;
+            pbxAdd.Location = new Point(1321, 845);
+            pbxAdd.Name = "pbxAdd";
+            pbxAdd.Size = new Size(47, 48);
+            pbxAdd.TabIndex = 24;
+            pbxAdd.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -313,13 +313,13 @@
             BackgroundImage = Properties.Resources.Dashboard___Request_for_Retrieval__experiment_;
             ClientSize = new Size(1422, 977);
             Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            Controls.Add(guna2GradientButton2);
-            Controls.Add(guna2GradientButton1);
-            Controls.Add(guna2TextBox4);
-            Controls.Add(guna2TextBox3);
-            Controls.Add(guna2TextBox2);
-            Controls.Add(guna2TextBox1);
+            Controls.Add(pbxAdd);
+            Controls.Add(btnBack);
+            Controls.Add(tbnSubmit);
+            Controls.Add(tbxItemDesc);
+            Controls.Add(tbxDLost);
+            Controls.Add(tbxPNum);
+            Controls.Add(tbxName);
             Controls.Add(pbxMin);
             Controls.Add(pbxMax);
             Controls.Add(pbxClose);
@@ -331,10 +331,11 @@
             Name = "RequestRetrieval";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RequestRetrieval";
+            Load += RequestRetrieval_Load;
             ((System.ComponentModel.ISupportInitialize)pbxMin).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbxAdd).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -349,13 +350,13 @@
         private PictureBox pbxMin;
         private PictureBox pbxMax;
         private PictureBox pbxClose;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
-        private PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2TextBox tbxName;
+        private Guna.UI2.WinForms.Guna2TextBox tbxPNum;
+        private Guna.UI2.WinForms.Guna2TextBox tbxDLost;
+        private Guna.UI2.WinForms.Guna2TextBox tbxItemDesc;
+        private Guna.UI2.WinForms.Guna2GradientButton tbnSubmit;
+        private Guna.UI2.WinForms.Guna2GradientButton btnBack;
+        private PictureBox pbxAdd;
         private PictureBox pictureBox2;
     }
 }
