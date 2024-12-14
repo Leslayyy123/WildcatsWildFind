@@ -349,6 +349,7 @@
             // 
             // guna2Button5
             // 
+            guna2Button5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             guna2Button5.BackColor = Color.Transparent;
             guna2Button5.BorderRadius = 25;
             guna2Button5.CustomizableEdges = customizableEdges13;
@@ -369,6 +370,7 @@
             // 
             // guna2HtmlLabel2
             // 
+            guna2HtmlLabel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Century Gothic", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.Location = new Point(153, 652);
@@ -379,6 +381,7 @@
             // 
             // guna2ShadowPanel2
             // 
+            guna2ShadowPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel2.BackColor = Color.Transparent;
             guna2ShadowPanel2.FillColor = Color.White;
             guna2ShadowPanel2.Location = new Point(153, 362);
@@ -391,6 +394,7 @@
             // 
             // guna2ShadowPanel3
             // 
+            guna2ShadowPanel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel3.BackColor = Color.Transparent;
             guna2ShadowPanel3.FillColor = Color.White;
             guna2ShadowPanel3.Location = new Point(153, 709);
@@ -403,6 +407,7 @@
             // 
             // guna2Button6
             // 
+            guna2Button6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             guna2Button6.BackColor = Color.Transparent;
             guna2Button6.BorderRadius = 25;
             guna2Button6.CustomizableEdges = customizableEdges15;
