@@ -72,7 +72,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(56, 292);
+            label1.Location = new Point(122, 292);
             label1.Name = "label1";
             label1.Size = new Size(64, 22);
             label1.TabIndex = 0;
@@ -85,7 +85,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(56, 394);
+            label2.Location = new Point(122, 394);
             label2.Name = "label2";
             label2.Size = new Size(142, 22);
             label2.TabIndex = 1;
@@ -98,7 +98,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(56, 530);
+            label3.Location = new Point(122, 530);
             label3.Name = "label3";
             label3.Size = new Size(90, 22);
             label3.TabIndex = 2;
@@ -111,7 +111,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(56, 643);
+            label4.Location = new Point(122, 643);
             label4.Name = "label4";
             label4.Size = new Size(153, 22);
             label4.TabIndex = 3;
@@ -171,7 +171,7 @@
             tbxName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxName.Font = new Font("Segoe UI", 9F);
             tbxName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxName.Location = new Point(56, 332);
+            tbxName.Location = new Point(122, 332);
             tbxName.Margin = new Padding(3, 4, 3, 4);
             tbxName.Name = "tbxName";
             tbxName.PasswordChar = '\0';
@@ -196,7 +196,7 @@
             tbxPNum.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxPNum.Font = new Font("Segoe UI", 9F);
             tbxPNum.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxPNum.Location = new Point(56, 434);
+            tbxPNum.Location = new Point(122, 434);
             tbxPNum.Margin = new Padding(3, 4, 3, 4);
             tbxPNum.Name = "tbxPNum";
             tbxPNum.PasswordChar = '\0';
@@ -221,7 +221,7 @@
             tbxDLost.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxDLost.Font = new Font("Segoe UI", 9F);
             tbxDLost.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxDLost.Location = new Point(56, 568);
+            tbxDLost.Location = new Point(122, 568);
             tbxDLost.Margin = new Padding(3, 4, 3, 4);
             tbxDLost.Name = "tbxDLost";
             tbxDLost.PasswordChar = '\0';
@@ -246,7 +246,7 @@
             tbxItemDesc.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxItemDesc.Font = new Font("Segoe UI", 9F);
             tbxItemDesc.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxItemDesc.Location = new Point(56, 688);
+            tbxItemDesc.Location = new Point(122, 688);
             tbxItemDesc.Margin = new Padding(3, 4, 3, 4);
             tbxItemDesc.Name = "tbxItemDesc";
             tbxItemDesc.PasswordChar = '\0';
