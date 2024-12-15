@@ -58,6 +58,8 @@
             pictureBox2 = new PictureBox();
             btnAdd = new Guna.UI2.WinForms.Guna2CircleButton();
             panel1 = new Panel();
+            typeLbl = new Label();
+            itemLbl = new Label();
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
@@ -346,12 +348,33 @@
             panel1.BackColor = Color.Transparent;
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Controls.Add(itemLbl);
+            panel1.Controls.Add(typeLbl);
             panel1.Controls.Add(pictureBox2);
             panel1.Location = new Point(640, 588);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(477, 77);
             panel1.TabIndex = 27;
+            // 
+            // typeLbl
+            // 
+            typeLbl.AutoSize = true;
+            typeLbl.ForeColor = Color.SandyBrown;
+            typeLbl.Location = new Point(104, 23);
+            typeLbl.Name = "typeLbl";
+            typeLbl.Size = new Size(34, 15);
+            typeLbl.TabIndex = 26;
+            typeLbl.Text = "saass";
+            // 
+            // itemLbl
+            // 
+            itemLbl.AutoSize = true;
+            itemLbl.Location = new Point(319, 23);
+            itemLbl.Name = "itemLbl";
+            itemLbl.Size = new Size(34, 15);
+            itemLbl.TabIndex = 27;
+            itemLbl.Text = "saass";
             // 
             // RequestRetrieval
             // 
@@ -387,6 +410,7 @@
             ((System.ComponentModel.ISupportInitialize)pbxClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -410,5 +434,7 @@
         private PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2CircleButton btnAdd;
         private Panel panel1;
+        private Label itemLbl;
+        private Label typeLbl;
     }
 }
