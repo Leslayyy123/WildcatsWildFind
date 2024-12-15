@@ -71,28 +71,28 @@ namespace WildcatsWildFind
                 
                 string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=WildFind.mdb;";
 
-                using (OleDbConnection connection = new OleDbConnection(connectionString))
+                using (OleDbConnection conn = new OleDbConnection(connectionString))
                 {
                     
                     string query = "INSERT INTO RequestRetrieval (studentName, emailAddress, itemName, itemType, itemDescription, dateLost) " +
                                    "VALUES (@Name, @Mail, @ItemName, @ItemType, @ItemDesc, @DateLost)";
 
-                    using (OleDbCommand command = new OleDbCommand(query, connection))
+                    using (OleDbCommand cmd = new OleDbCommand(query, conn))
                     {
-                        
-                        command.Parameters.AddWithValue("@Name", tbxName.Text);
-                        command.Parameters.AddWithValue("@Mail", tbxMail.Text);
-                        command.Parameters.AddWithValue("@ItemName", itemLbl.Text);
-                        command.Parameters.AddWithValue("@ItemType", typeLbl.Text);
-                        command.Parameters.AddWithValue("@ItemDesc", tbxItemDesc.Text);
-                        command.Parameters.AddWithValue("@DateLost", tbxDLost.Text);
 
-                        
-                        connection.Open();
-                        command.ExecuteNonQuery();
+                        cmd.Parameters.AddWithValue("@Name", tbxName.Text);
+                        cmd.Parameters.AddWithValue("@Mail", tbxMail.Text);
+                        cmd.Parameters.AddWithValue("@ItemName", itemLbl.Text);
+                        cmd.Parameters.AddWithValue("@ItemType", typeLbl.Text);
+                        cmd.Parameters.AddWithValue("@ItemDesc", tbxItemDesc.Text);
+                        cmd.Parameters.AddWithValue("@DateLost", tbxDLost.Text);
+
+
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
 
                         MessageBox.Show("Data saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        connection.Close();
+                        conn.Close();
                     }
                 }
             }

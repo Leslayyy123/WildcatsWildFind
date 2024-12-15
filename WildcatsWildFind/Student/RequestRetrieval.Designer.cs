@@ -389,12 +389,14 @@
             // picItem
             // 
             picItem.BackColor = Color.Transparent;
+            picItem.FillColor = Color.FromArgb(112, 33, 33);
             picItem.ImageRotate = 0F;
-            picItem.Location = new Point(823, 349);
+            picItem.Location = new Point(697, 188);
             picItem.Name = "picItem";
             picItem.ShadowDecoration.CustomizableEdges = customizableEdges14;
             picItem.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            picItem.Size = new Size(64, 64);
+            picItem.Size = new Size(592, 490);
+            picItem.SizeMode = PictureBoxSizeMode.AutoSize;
             picItem.TabIndex = 28;
             picItem.TabStop = false;
             // 
@@ -405,7 +407,6 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1260, 768);
-            Controls.Add(picItem);
             Controls.Add(panel1);
             Controls.Add(btnAdd);
             Controls.Add(btnBack);
@@ -421,6 +422,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Controls.Add(picItem);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
