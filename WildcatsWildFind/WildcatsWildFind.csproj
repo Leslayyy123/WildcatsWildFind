@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.6" />
+    <PackageReference Include="System.Data.OleDb" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
