@@ -178,6 +178,7 @@
             tbxName.FillColor = Color.FromArgb(90, 0, 0);
             tbxName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxName.Font = new Font("Segoe UI", 9F);
+            tbxName.ForeColor = Color.White;
             tbxName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxName.Location = new Point(107, 249);
             tbxName.Name = "tbxName";
@@ -202,6 +203,7 @@
             tbxMail.FillColor = Color.FromArgb(90, 0, 0);
             tbxMail.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxMail.Font = new Font("Segoe UI", 9F);
+            tbxMail.ForeColor = Color.White;
             tbxMail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxMail.Location = new Point(107, 326);
             tbxMail.Name = "tbxMail";
@@ -226,6 +228,7 @@
             tbxDLost.FillColor = Color.FromArgb(90, 0, 0);
             tbxDLost.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxDLost.Font = new Font("Segoe UI", 9F);
+            tbxDLost.ForeColor = Color.White;
             tbxDLost.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxDLost.Location = new Point(107, 410);
             tbxDLost.Name = "tbxDLost";
@@ -250,6 +253,7 @@
             tbxItemDesc.FillColor = Color.FromArgb(90, 0, 0);
             tbxItemDesc.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxItemDesc.Font = new Font("Segoe UI", 9F);
+            tbxItemDesc.ForeColor = Color.White;
             tbxItemDesc.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxItemDesc.Location = new Point(107, 516);
             tbxItemDesc.Name = "tbxItemDesc";
