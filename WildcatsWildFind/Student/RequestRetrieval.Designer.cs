@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RequestRetrieval));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -50,21 +51,23 @@
             pbxMax = new PictureBox();
             pbxClose = new PictureBox();
             tbxName = new Guna.UI2.WinForms.Guna2TextBox();
-            tbxPNum = new Guna.UI2.WinForms.Guna2TextBox();
+            tbxMail = new Guna.UI2.WinForms.Guna2TextBox();
             tbxDLost = new Guna.UI2.WinForms.Guna2TextBox();
             tbxItemDesc = new Guna.UI2.WinForms.Guna2TextBox();
-            tbnSubmit = new Guna.UI2.WinForms.Guna2GradientButton();
+            btnSubmit = new Guna.UI2.WinForms.Guna2GradientButton();
             btnBack = new Guna.UI2.WinForms.Guna2GradientButton();
             pictureBox2 = new PictureBox();
             btnAdd = new Guna.UI2.WinForms.Guna2CircleButton();
             panel1 = new Panel();
-            typeLbl = new Label();
             itemLbl = new Label();
+            typeLbl = new Label();
+            picItem = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picItem).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -166,7 +169,7 @@
             tbxName.Anchor = AnchorStyles.Left;
             tbxName.BackColor = Color.Transparent;
             tbxName.BorderRadius = 15;
-            tbxName.CustomizableEdges = customizableEdges14;
+            tbxName.CustomizableEdges = customizableEdges1;
             tbxName.DefaultText = "";
             tbxName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbxName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -179,42 +182,42 @@
             tbxName.Location = new Point(107, 249);
             tbxName.Name = "tbxName";
             tbxName.PasswordChar = '\0';
-            tbxName.PlaceholderText = "";
+            tbxName.PlaceholderText = "Name";
             tbxName.SelectedText = "";
-            tbxName.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            tbxName.ShadowDecoration.CustomizableEdges = customizableEdges2;
             tbxName.Size = new Size(527, 34);
             tbxName.TabIndex = 18;
             // 
-            // tbxPNum
+            // tbxMail
             // 
-            tbxPNum.Anchor = AnchorStyles.Left;
-            tbxPNum.BackColor = Color.Transparent;
-            tbxPNum.BorderRadius = 15;
-            tbxPNum.CustomizableEdges = customizableEdges16;
-            tbxPNum.DefaultText = "";
-            tbxPNum.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            tbxPNum.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            tbxPNum.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            tbxPNum.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            tbxPNum.FillColor = Color.FromArgb(90, 0, 0);
-            tbxPNum.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxPNum.Font = new Font("Segoe UI", 9F);
-            tbxPNum.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxPNum.Location = new Point(107, 326);
-            tbxPNum.Name = "tbxPNum";
-            tbxPNum.PasswordChar = '\0';
-            tbxPNum.PlaceholderText = "";
-            tbxPNum.SelectedText = "";
-            tbxPNum.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            tbxPNum.Size = new Size(527, 34);
-            tbxPNum.TabIndex = 19;
+            tbxMail.Anchor = AnchorStyles.Left;
+            tbxMail.BackColor = Color.Transparent;
+            tbxMail.BorderRadius = 15;
+            tbxMail.CustomizableEdges = customizableEdges3;
+            tbxMail.DefaultText = "";
+            tbxMail.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxMail.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxMail.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxMail.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxMail.FillColor = Color.FromArgb(90, 0, 0);
+            tbxMail.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxMail.Font = new Font("Segoe UI", 9F);
+            tbxMail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxMail.Location = new Point(107, 326);
+            tbxMail.Name = "tbxMail";
+            tbxMail.PasswordChar = '\0';
+            tbxMail.PlaceholderText = "Email address";
+            tbxMail.SelectedText = "";
+            tbxMail.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            tbxMail.Size = new Size(527, 34);
+            tbxMail.TabIndex = 19;
             // 
             // tbxDLost
             // 
             tbxDLost.Anchor = AnchorStyles.Left;
             tbxDLost.BackColor = Color.Transparent;
             tbxDLost.BorderRadius = 15;
-            tbxDLost.CustomizableEdges = customizableEdges18;
+            tbxDLost.CustomizableEdges = customizableEdges5;
             tbxDLost.DefaultText = "";
             tbxDLost.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbxDLost.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -227,9 +230,9 @@
             tbxDLost.Location = new Point(107, 410);
             tbxDLost.Name = "tbxDLost";
             tbxDLost.PasswordChar = '\0';
-            tbxDLost.PlaceholderText = "";
+            tbxDLost.PlaceholderText = "Date Lost MM/DD/YYYY";
             tbxDLost.SelectedText = "";
-            tbxDLost.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            tbxDLost.ShadowDecoration.CustomizableEdges = customizableEdges6;
             tbxDLost.Size = new Size(527, 34);
             tbxDLost.TabIndex = 20;
             // 
@@ -238,7 +241,7 @@
             tbxItemDesc.Anchor = AnchorStyles.Left;
             tbxItemDesc.BackColor = Color.Transparent;
             tbxItemDesc.BorderRadius = 15;
-            tbxItemDesc.CustomizableEdges = customizableEdges20;
+            tbxItemDesc.CustomizableEdges = customizableEdges7;
             tbxItemDesc.DefaultText = "";
             tbxItemDesc.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbxItemDesc.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -251,35 +254,36 @@
             tbxItemDesc.Location = new Point(107, 516);
             tbxItemDesc.Name = "tbxItemDesc";
             tbxItemDesc.PasswordChar = '\0';
-            tbxItemDesc.PlaceholderText = "";
+            tbxItemDesc.PlaceholderText = "Item Description";
             tbxItemDesc.SelectedText = "";
-            tbxItemDesc.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            tbxItemDesc.ShadowDecoration.CustomizableEdges = customizableEdges8;
             tbxItemDesc.Size = new Size(527, 92);
             tbxItemDesc.TabIndex = 21;
             // 
-            // tbnSubmit
+            // btnSubmit
             // 
-            tbnSubmit.Anchor = AnchorStyles.Left;
-            tbnSubmit.BackColor = Color.Transparent;
-            tbnSubmit.BorderColor = Color.Transparent;
-            tbnSubmit.BorderRadius = 5;
-            tbnSubmit.CustomizableEdges = customizableEdges22;
-            tbnSubmit.DisabledState.BorderColor = Color.DarkGray;
-            tbnSubmit.DisabledState.CustomBorderColor = Color.DarkGray;
-            tbnSubmit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            tbnSubmit.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            tbnSubmit.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            tbnSubmit.FillColor = Color.FromArgb(177, 8, 8);
-            tbnSubmit.FillColor2 = Color.FromArgb(112, 33, 33);
-            tbnSubmit.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbnSubmit.ForeColor = Color.White;
-            tbnSubmit.Location = new Point(440, 626);
-            tbnSubmit.Margin = new Padding(3, 2, 3, 2);
-            tbnSubmit.Name = "tbnSubmit";
-            tbnSubmit.ShadowDecoration.CustomizableEdges = customizableEdges23;
-            tbnSubmit.Size = new Size(153, 42);
-            tbnSubmit.TabIndex = 22;
-            tbnSubmit.Text = "Submit";
+            btnSubmit.Anchor = AnchorStyles.Left;
+            btnSubmit.BackColor = Color.Transparent;
+            btnSubmit.BorderColor = Color.Transparent;
+            btnSubmit.BorderRadius = 5;
+            btnSubmit.CustomizableEdges = customizableEdges9;
+            btnSubmit.DisabledState.BorderColor = Color.DarkGray;
+            btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSubmit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSubmit.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btnSubmit.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSubmit.FillColor = Color.FromArgb(177, 8, 8);
+            btnSubmit.FillColor2 = Color.FromArgb(112, 33, 33);
+            btnSubmit.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSubmit.ForeColor = Color.White;
+            btnSubmit.Location = new Point(440, 626);
+            btnSubmit.Margin = new Padding(3, 2, 3, 2);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnSubmit.Size = new Size(153, 42);
+            btnSubmit.TabIndex = 22;
+            btnSubmit.Text = "Submit";
+            btnSubmit.Click += btnSubmit_Click;
             // 
             // btnBack
             // 
@@ -287,7 +291,7 @@
             btnBack.BackColor = Color.Transparent;
             btnBack.BorderColor = Color.Transparent;
             btnBack.BorderRadius = 5;
-            btnBack.CustomizableEdges = customizableEdges24;
+            btnBack.CustomizableEdges = customizableEdges11;
             btnBack.DisabledState.BorderColor = Color.DarkGray;
             btnBack.DisabledState.CustomBorderColor = Color.DarkGray;
             btnBack.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -300,7 +304,7 @@
             btnBack.Location = new Point(266, 626);
             btnBack.Margin = new Padding(3, 2, 3, 2);
             btnBack.Name = "btnBack";
-            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            btnBack.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnBack.Size = new Size(153, 42);
             btnBack.TabIndex = 23;
             btnBack.Text = "Back";
@@ -335,12 +339,13 @@
             btnAdd.Location = new Point(1141, 580);
             btnAdd.Margin = new Padding(3, 2, 3, 2);
             btnAdd.Name = "btnAdd";
-            btnAdd.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnAdd.ShadowDecoration.CustomizableEdges = customizableEdges13;
             btnAdd.ShadowDecoration.Depth = 10;
             btnAdd.ShadowDecoration.Enabled = true;
             btnAdd.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             btnAdd.Size = new Size(85, 69);
             btnAdd.TabIndex = 26;
+            btnAdd.Click += btnAdd_Click;
             // 
             // panel1
             // 
@@ -351,21 +356,11 @@
             panel1.Controls.Add(itemLbl);
             panel1.Controls.Add(typeLbl);
             panel1.Controls.Add(pictureBox2);
-            panel1.Location = new Point(640, 588);
+            panel1.Location = new Point(640, 591);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(477, 77);
             panel1.TabIndex = 27;
-            // 
-            // typeLbl
-            // 
-            typeLbl.AutoSize = true;
-            typeLbl.ForeColor = Color.SandyBrown;
-            typeLbl.Location = new Point(104, 23);
-            typeLbl.Name = "typeLbl";
-            typeLbl.Size = new Size(34, 15);
-            typeLbl.TabIndex = 26;
-            typeLbl.Text = "saass";
             // 
             // itemLbl
             // 
@@ -377,6 +372,28 @@
             itemLbl.TabIndex = 27;
             itemLbl.Text = "saass";
             // 
+            // typeLbl
+            // 
+            typeLbl.AutoSize = true;
+            typeLbl.ForeColor = Color.SandyBrown;
+            typeLbl.Location = new Point(104, 23);
+            typeLbl.Name = "typeLbl";
+            typeLbl.Size = new Size(76, 15);
+            typeLbl.TabIndex = 26;
+            typeLbl.Text = "weareelectric";
+            // 
+            // picItem
+            // 
+            picItem.BackColor = Color.Transparent;
+            picItem.ImageRotate = 0F;
+            picItem.Location = new Point(823, 349);
+            picItem.Name = "picItem";
+            picItem.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            picItem.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            picItem.Size = new Size(64, 64);
+            picItem.TabIndex = 28;
+            picItem.TabStop = false;
+            // 
             // RequestRetrieval
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -384,12 +401,14 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1260, 768);
+            Controls.Add(picItem);
+            Controls.Add(panel1);
             Controls.Add(btnAdd);
             Controls.Add(btnBack);
-            Controls.Add(tbnSubmit);
+            Controls.Add(btnSubmit);
             Controls.Add(tbxItemDesc);
             Controls.Add(tbxDLost);
-            Controls.Add(tbxPNum);
+            Controls.Add(tbxMail);
             Controls.Add(tbxName);
             Controls.Add(pbxMin);
             Controls.Add(pbxMax);
@@ -398,7 +417,6 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(panel1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
@@ -412,6 +430,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picItem).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -426,10 +445,10 @@
         private PictureBox pbxMax;
         private PictureBox pbxClose;
         private Guna.UI2.WinForms.Guna2TextBox tbxName;
-        private Guna.UI2.WinForms.Guna2TextBox tbxPNum;
+        private Guna.UI2.WinForms.Guna2TextBox tbxMail;
         private Guna.UI2.WinForms.Guna2TextBox tbxDLost;
         private Guna.UI2.WinForms.Guna2TextBox tbxItemDesc;
-        private Guna.UI2.WinForms.Guna2GradientButton tbnSubmit;
+        private Guna.UI2.WinForms.Guna2GradientButton btnSubmit;
         private Guna.UI2.WinForms.Guna2GradientButton btnBack;
         private PictureBox pbxAdd;
         private PictureBox pictureBox2;
@@ -437,5 +456,6 @@
         private Panel panel1;
         private Label itemLbl;
         private Label typeLbl;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picItem;
     }
 }

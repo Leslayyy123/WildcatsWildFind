@@ -48,6 +48,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pbxMin = new PictureBox();
             pbxMax = new PictureBox();
             pbxClose = new PictureBox();
@@ -72,6 +74,7 @@
             guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
@@ -466,6 +469,23 @@
             guna2Button8.Size = new Size(46, 35);
             guna2Button8.TabIndex = 70;
             // 
+            // guna2Button9
+            // 
+            guna2Button9.CustomizableEdges = customizableEdges19;
+            guna2Button9.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button9.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button9.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button9.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button9.Font = new Font("Segoe UI", 9F);
+            guna2Button9.ForeColor = Color.White;
+            guna2Button9.Location = new Point(54, 179);
+            guna2Button9.Name = "guna2Button9";
+            guna2Button9.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button9.Size = new Size(180, 45);
+            guna2Button9.TabIndex = 71;
+            guna2Button9.Text = "test request page";
+            guna2Button9.Click += guna2Button9_Click;
+            // 
             // SearchLostItem
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -473,6 +493,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1260, 768);
+            Controls.Add(guna2Button9);
             Controls.Add(guna2Button8);
             Controls.Add(guna2Button6);
             Controls.Add(guna2ShadowPanel3);
@@ -535,5 +556,6 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button guna2Button9;
     }
 }
