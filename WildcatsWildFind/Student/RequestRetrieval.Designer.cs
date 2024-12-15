@@ -100,7 +100,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(107, 398);
+            label3.Location = new Point(107, 380);
             label3.Name = "label3";
             label3.Size = new Size(74, 18);
             label3.TabIndex = 2;
@@ -224,7 +224,7 @@
             tbxDLost.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxDLost.Font = new Font("Segoe UI", 9F);
             tbxDLost.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxDLost.Location = new Point(107, 426);
+            tbxDLost.Location = new Point(107, 410);
             tbxDLost.Name = "tbxDLost";
             tbxDLost.PasswordChar = '\0';
             tbxDLost.PlaceholderText = "";
