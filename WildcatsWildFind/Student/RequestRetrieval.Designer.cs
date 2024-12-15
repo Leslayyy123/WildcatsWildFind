@@ -72,9 +72,9 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(122, 292);
+            label1.Location = new Point(107, 219);
             label1.Name = "label1";
-            label1.Size = new Size(64, 22);
+            label1.Size = new Size(53, 18);
             label1.TabIndex = 0;
             label1.Text = "Name";
             // 
@@ -85,11 +85,11 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(122, 394);
+            label2.Location = new Point(107, 296);
             label2.Name = "label2";
-            label2.Size = new Size(142, 22);
+            label2.Size = new Size(109, 18);
             label2.TabIndex = 1;
-            label2.Text = "Phone Number";
+            label2.Text = "Email address";
             // 
             // label3
             // 
@@ -98,9 +98,9 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(122, 530);
+            label3.Location = new Point(107, 398);
             label3.Name = "label3";
-            label3.Size = new Size(90, 22);
+            label3.Size = new Size(74, 18);
             label3.TabIndex = 2;
             label3.Text = "Date Lost";
             // 
@@ -111,9 +111,9 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Century Gothic", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(122, 643);
+            label4.Location = new Point(107, 482);
             label4.Name = "label4";
-            label4.Size = new Size(153, 22);
+            label4.Size = new Size(127, 18);
             label4.TabIndex = 3;
             label4.Text = "Item Description";
             // 
@@ -123,9 +123,10 @@
             pbxMin.BackColor = Color.Transparent;
             pbxMin.BackgroundImage = (Image)resources.GetObject("pbxMin.BackgroundImage");
             pbxMin.BackgroundImageLayout = ImageLayout.Stretch;
-            pbxMin.Location = new Point(1323, 12);
+            pbxMin.Location = new Point(1158, 9);
+            pbxMin.Margin = new Padding(3, 2, 3, 2);
             pbxMin.Name = "pbxMin";
-            pbxMin.Size = new Size(24, 28);
+            pbxMin.Size = new Size(21, 21);
             pbxMin.TabIndex = 15;
             pbxMin.TabStop = false;
             pbxMin.Click += pbxMin_Click;
@@ -136,9 +137,10 @@
             pbxMax.BackColor = Color.Transparent;
             pbxMax.BackgroundImage = (Image)resources.GetObject("pbxMax.BackgroundImage");
             pbxMax.BackgroundImageLayout = ImageLayout.Stretch;
-            pbxMax.Location = new Point(1362, 12);
+            pbxMax.Location = new Point(1192, 9);
+            pbxMax.Margin = new Padding(3, 2, 3, 2);
             pbxMax.Name = "pbxMax";
-            pbxMax.Size = new Size(24, 28);
+            pbxMax.Size = new Size(21, 21);
             pbxMax.TabIndex = 14;
             pbxMax.TabStop = false;
             pbxMax.Click += pbxMax_Click;
@@ -149,9 +151,10 @@
             pbxClose.BackColor = Color.Transparent;
             pbxClose.BackgroundImage = Properties.Resources.close__2_;
             pbxClose.BackgroundImageLayout = ImageLayout.Stretch;
-            pbxClose.Location = new Point(1401, 14);
+            pbxClose.Location = new Point(1226, 10);
+            pbxClose.Margin = new Padding(3, 2, 3, 2);
             pbxClose.Name = "pbxClose";
-            pbxClose.Size = new Size(25, 25);
+            pbxClose.Size = new Size(22, 19);
             pbxClose.TabIndex = 13;
             pbxClose.TabStop = false;
             pbxClose.Click += pbxClose_Click;
@@ -171,14 +174,13 @@
             tbxName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxName.Font = new Font("Segoe UI", 9F);
             tbxName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxName.Location = new Point(122, 332);
-            tbxName.Margin = new Padding(3, 4, 3, 4);
+            tbxName.Location = new Point(107, 249);
             tbxName.Name = "tbxName";
             tbxName.PasswordChar = '\0';
             tbxName.PlaceholderText = "";
             tbxName.SelectedText = "";
             tbxName.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            tbxName.Size = new Size(602, 46);
+            tbxName.Size = new Size(527, 34);
             tbxName.TabIndex = 18;
             // 
             // tbxPNum
@@ -196,14 +198,13 @@
             tbxPNum.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxPNum.Font = new Font("Segoe UI", 9F);
             tbxPNum.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxPNum.Location = new Point(122, 434);
-            tbxPNum.Margin = new Padding(3, 4, 3, 4);
+            tbxPNum.Location = new Point(107, 326);
             tbxPNum.Name = "tbxPNum";
             tbxPNum.PasswordChar = '\0';
             tbxPNum.PlaceholderText = "";
             tbxPNum.SelectedText = "";
             tbxPNum.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            tbxPNum.Size = new Size(602, 46);
+            tbxPNum.Size = new Size(527, 34);
             tbxPNum.TabIndex = 19;
             // 
             // tbxDLost
@@ -221,14 +222,13 @@
             tbxDLost.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxDLost.Font = new Font("Segoe UI", 9F);
             tbxDLost.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxDLost.Location = new Point(122, 568);
-            tbxDLost.Margin = new Padding(3, 4, 3, 4);
+            tbxDLost.Location = new Point(107, 426);
             tbxDLost.Name = "tbxDLost";
             tbxDLost.PasswordChar = '\0';
             tbxDLost.PlaceholderText = "";
             tbxDLost.SelectedText = "";
             tbxDLost.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            tbxDLost.Size = new Size(602, 46);
+            tbxDLost.Size = new Size(527, 34);
             tbxDLost.TabIndex = 20;
             // 
             // tbxItemDesc
@@ -246,14 +246,13 @@
             tbxItemDesc.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxItemDesc.Font = new Font("Segoe UI", 9F);
             tbxItemDesc.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxItemDesc.Location = new Point(122, 688);
-            tbxItemDesc.Margin = new Padding(3, 4, 3, 4);
+            tbxItemDesc.Location = new Point(107, 516);
             tbxItemDesc.Name = "tbxItemDesc";
             tbxItemDesc.PasswordChar = '\0';
             tbxItemDesc.PlaceholderText = "";
             tbxItemDesc.SelectedText = "";
             tbxItemDesc.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            tbxItemDesc.Size = new Size(602, 123);
+            tbxItemDesc.Size = new Size(527, 92);
             tbxItemDesc.TabIndex = 21;
             // 
             // tbnSubmit
@@ -272,10 +271,11 @@
             tbnSubmit.FillColor2 = Color.FromArgb(112, 33, 33);
             tbnSubmit.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbnSubmit.ForeColor = Color.White;
-            tbnSubmit.Location = new Point(503, 835);
+            tbnSubmit.Location = new Point(440, 626);
+            tbnSubmit.Margin = new Padding(3, 2, 3, 2);
             tbnSubmit.Name = "tbnSubmit";
             tbnSubmit.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            tbnSubmit.Size = new Size(175, 56);
+            tbnSubmit.Size = new Size(153, 42);
             tbnSubmit.TabIndex = 22;
             tbnSubmit.Text = "Submit";
             // 
@@ -295,10 +295,11 @@
             btnBack.FillColor2 = Color.FromArgb(177, 8, 8);
             btnBack.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnBack.ForeColor = Color.White;
-            btnBack.Location = new Point(304, 835);
+            btnBack.Location = new Point(266, 626);
+            btnBack.Margin = new Padding(3, 2, 3, 2);
             btnBack.Name = "btnBack";
             btnBack.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnBack.Size = new Size(175, 56);
+            btnBack.Size = new Size(153, 42);
             btnBack.TabIndex = 23;
             btnBack.Text = "Back";
             btnBack.Click += btnBack_Click;
@@ -309,9 +310,10 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(235, 17);
+            pictureBox2.Location = new Point(206, 13);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(47, 48);
+            pictureBox2.Size = new Size(41, 36);
             pictureBox2.TabIndex = 25;
             pictureBox2.TabStop = false;
             // 
@@ -328,13 +330,14 @@
             btnAdd.ForeColor = Color.White;
             btnAdd.Image = Properties.Resources.plus__1_;
             btnAdd.ImageSize = new Size(50, 50);
-            btnAdd.Location = new Point(1304, 774);
+            btnAdd.Location = new Point(1141, 580);
+            btnAdd.Margin = new Padding(3, 2, 3, 2);
             btnAdd.Name = "btnAdd";
             btnAdd.ShadowDecoration.CustomizableEdges = customizableEdges13;
             btnAdd.ShadowDecoration.Depth = 10;
             btnAdd.ShadowDecoration.Enabled = true;
             btnAdd.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            btnAdd.Size = new Size(97, 92);
+            btnAdd.Size = new Size(85, 69);
             btnAdd.TabIndex = 26;
             // 
             // panel1
@@ -344,18 +347,19 @@
             panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.Controls.Add(pictureBox2);
-            panel1.Location = new Point(732, 784);
+            panel1.Location = new Point(640, 588);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(545, 103);
+            panel1.Size = new Size(477, 77);
             panel1.TabIndex = 27;
             // 
             // RequestRetrieval
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1440, 1024);
+            ClientSize = new Size(1260, 768);
             Controls.Add(btnAdd);
             Controls.Add(btnBack);
             Controls.Add(tbnSubmit);
@@ -373,6 +377,7 @@
             Controls.Add(panel1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "RequestRetrieval";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RequestRetrieval";

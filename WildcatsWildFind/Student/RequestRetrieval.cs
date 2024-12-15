@@ -54,5 +54,7 @@ namespace WildcatsWildFind
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        
     }
 }
