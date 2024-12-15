@@ -396,9 +396,9 @@
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(142, 42);
             guna2HtmlLabel2.TabIndex = 66;
-            guna2HtmlLabel2.Text = "Personal";
+            guna2HtmlLabel2.Text = "Non-Electronics";
             // 
-            // guna2ShadowPanel2
+            // guna2ShadowPanel2 :: PANEL FOR ELECTRONICS 
             // 
             guna2ShadowPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel2.BackColor = Color.Transparent;
@@ -412,7 +412,7 @@
             guna2ShadowPanel2.Size = new Size(970, 179);
             guna2ShadowPanel2.TabIndex = 67;
             // 
-            // guna2ShadowPanel3
+            // guna2ShadowPanel3 :: PANEL FOR NON-ELECTRONICS
             // 
             guna2ShadowPanel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel3.BackColor = Color.Transparent;
