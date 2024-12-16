@@ -59,11 +59,7 @@ namespace WildcatsWildFind
 
         }
         // SERCH BUTTON
-        private void pbxSearch_Click(object sender, EventArgs e)
-        {
-
-        }
-        // REQUEST RETRIEVAL
+       
         private void guna2Button9_Click(object sender, EventArgs e)
         {
             RequestRetrieval request = new RequestRetrieval();
@@ -101,11 +97,7 @@ namespace WildcatsWildFind
 
         }
 
-        private void guna2Button9_Click(object sender, EventArgs e)
-        {
-            new RequestRetrieval().Show();
-            this.Hide();
-        }
+       
 
     }
 }
