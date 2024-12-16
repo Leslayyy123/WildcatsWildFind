@@ -367,7 +367,7 @@
             guna2Button7.Size = new Size(53, 47);
             guna2Button7.TabIndex = 63;
             // 
-            // guna2HtmlLabel1
+            // guna2HtmlLabel1 :: LABEL "ELECTRONICS"
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Century Gothic", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -398,7 +398,7 @@
             guna2Button5.Size = new Size(53, 47);
             guna2Button5.TabIndex = 65;
             // 
-            // guna2HtmlLabel2
+            // guna2HtmlLabel2 :: LABEL "NON-ELECTRONICS"
             // 
             guna2HtmlLabel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             guna2HtmlLabel2.BackColor = Color.Transparent;
@@ -407,9 +407,9 @@
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(180, 51);
             guna2HtmlLabel2.TabIndex = 66;
-            guna2HtmlLabel2.Text = "Personal";
+            guna2HtmlLabel2.Text = "Non-Electronics";
             // 
-            // guna2ShadowPanel2
+            // guna2ShadowPanel2 :: PANEL FOR ELECTRONICS 
             // 
             guna2ShadowPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel2.BackColor = Color.Transparent;
@@ -422,7 +422,7 @@
             guna2ShadowPanel2.Size = new Size(1109, 239);
             guna2ShadowPanel2.TabIndex = 67;
             // 
-            // guna2ShadowPanel3
+            // guna2ShadowPanel3 :: PANEL FOR NON-ELECTRONICS
             // 
             guna2ShadowPanel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel3.BackColor = Color.Transparent;

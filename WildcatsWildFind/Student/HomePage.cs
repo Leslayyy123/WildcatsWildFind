@@ -9,7 +9,6 @@ namespace WildcatsWildFind
         {
             InitializeComponent();
         }
-
         private void pbxClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -26,7 +25,6 @@ namespace WildcatsWildFind
                 this.WindowState = FormWindowState.Normal;
             }
         }
-
         private void pbxMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -34,7 +32,7 @@ namespace WildcatsWildFind
 
         private void HomePage_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)

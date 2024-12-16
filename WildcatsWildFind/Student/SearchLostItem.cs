@@ -14,11 +14,10 @@ namespace WildcatsWildFind
     public partial class SearchLostItem : Form
     {
         bool FilterbarExpand;
-
+        private Items _items = new Items();
         public SearchLostItem()
         {
             InitializeComponent();
-
         }
 
         private void FilterItemTimer_Tick(object sender, EventArgs e)
@@ -42,29 +41,42 @@ namespace WildcatsWildFind
                 }
             }
         }
-
+        // TIMER FOR FILTER
         private void pbxFilterItem_Click(object sender, EventArgs e)
         {
             FilterItemTimer.Start();
         }
-
-        private void pbxClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
+        // SEARCH LOST ITEM = LOAD ???
         private void SearchLostItem_Load(object sender, EventArgs e)
         {
-
+            
         }
-
+        // SEARCH RESTART
         private void tbxSearch_TextChanged(object sender, EventArgs e)
         {
 
             tbxSearch.Text = tbxSearch.Text.Trim();
 
         }
+        // SERCH BUTTON
+        private void pbxSearch_Click(object sender, EventArgs e)
+        {
 
+        }
+        // REQUEST RETRIEVAL
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            RequestRetrieval request = new RequestRetrieval();
+            request.Show();
+            this.Hide();
+        }
+
+        // CLOSE , MAX , MIN ; BUTTONS
+        private void pbxClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+       
         private void pbxMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -82,6 +94,8 @@ namespace WildcatsWildFind
             }
         }
 
+
+
         private void pbxSearch_Click(object sender, EventArgs e)
         {
 
@@ -92,5 +106,6 @@ namespace WildcatsWildFind
             new RequestRetrieval().Show();
             this.Hide();
         }
+
     }
 }
