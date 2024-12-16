@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Data.OleDb;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WildcatsWildFind.Student;
@@ -51,6 +52,7 @@ namespace WildcatsWildFind
         {
             
         }
+        
         // SEARCH RESTART
         private void tbxSearch_TextChanged(object sender, EventArgs e)
         {
