@@ -369,20 +369,22 @@
             // itemLbl
             // 
             itemLbl.AutoSize = true;
+            itemLbl.Font = new Font("Segoe UI", 14F, FontStyle.Italic);
             itemLbl.ForeColor = Color.SandyBrown;
-            itemLbl.Location = new Point(319, 23);
+            itemLbl.Location = new Point(271, 15);
             itemLbl.Name = "itemLbl";
-            itemLbl.Size = new Size(34, 15);
+            itemLbl.Size = new Size(56, 25);
             itemLbl.TabIndex = 27;
             itemLbl.Text = "saass";
             // 
             // typeLbl
             // 
             typeLbl.AutoSize = true;
+            typeLbl.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
             typeLbl.ForeColor = Color.SandyBrown;
-            typeLbl.Location = new Point(104, 23);
+            typeLbl.Location = new Point(57, 15);
             typeLbl.Name = "typeLbl";
-            typeLbl.Size = new Size(76, 15);
+            typeLbl.Size = new Size(118, 25);
             typeLbl.TabIndex = 26;
             typeLbl.Text = "weareelectric";
             // 
