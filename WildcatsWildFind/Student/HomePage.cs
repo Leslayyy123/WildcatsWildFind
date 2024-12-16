@@ -46,7 +46,7 @@ namespace WildcatsWildFind
                 using (OleDbConnection conn = new OleDbConnection(connectionString))
                 {
                     
-                    string query = "SELECT COUNT(*) FROM ReportedItems";
+                    string query = "SELECT COUNT(*) FROM UnclaimedItems";
 
                     using (OleDbCommand cmd = new OleDbCommand(query, conn))
                     {
@@ -73,7 +73,7 @@ namespace WildcatsWildFind
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred while checking reported items: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"An error occurred while checking UnclaimedItems: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
 
