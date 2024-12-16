@@ -14,11 +14,10 @@ namespace WildcatsWildFind
     public partial class SearchLostItem : Form
     {
         bool FilterbarExpand;
-
+        private Items _items = new Items();
         public SearchLostItem()
         {
             InitializeComponent();
-
         }
 
         private void FilterItemTimer_Tick(object sender, EventArgs e)
@@ -50,7 +49,7 @@ namespace WildcatsWildFind
         // SEARCH LOST ITEM = LOAD ???
         private void SearchLostItem_Load(object sender, EventArgs e)
         {
-
+            
         }
         // SEARCH RESTART
         private void tbxSearch_TextChanged(object sender, EventArgs e)

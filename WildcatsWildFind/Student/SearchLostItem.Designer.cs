@@ -353,7 +353,7 @@
             guna2Button7.Size = new Size(46, 35);
             guna2Button7.TabIndex = 63;
             // 
-            // guna2HtmlLabel1
+            // guna2HtmlLabel1 :: LABEL "ELECTRONICS"
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Century Gothic", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -386,7 +386,7 @@
             guna2Button5.Size = new Size(46, 35);
             guna2Button5.TabIndex = 65;
             // 
-            // guna2HtmlLabel2
+            // guna2HtmlLabel2 :: LABEL "NON-ELECTRONICS"
             // 
             guna2HtmlLabel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             guna2HtmlLabel2.BackColor = Color.Transparent;
