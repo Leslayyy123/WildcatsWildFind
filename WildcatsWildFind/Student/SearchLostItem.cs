@@ -89,8 +89,7 @@ namespace WildcatsWildFind
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-            RequestRetrieval request = new RequestRetrieval();
-            request.Show();
+            new RequestRetrieval().Show();
             this.Hide();
         }
     }
