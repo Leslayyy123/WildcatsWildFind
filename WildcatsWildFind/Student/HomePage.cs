@@ -1,3 +1,6 @@
+using System.Data.OleDb;
+using WildcatsWildFind.Student;
+
 namespace WildcatsWildFind
 {
     public partial class HomePage : Form
@@ -34,9 +37,48 @@ namespace WildcatsWildFind
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            SearchLostItem searchlostitem = new SearchLostItem();
-            searchlostitem.Show();
-            this.Hide();
+            
+            try
+            {
+
+                string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=WildFind.mdb;";
+
+                using (OleDbConnection conn = new OleDbConnection(connectionString))
+                {
+                    
+                    string query = "SELECT COUNT(*) FROM ReportedItems";
+
+                    using (OleDbCommand cmd = new OleDbCommand(query, conn))
+                    {
+                        conn.Open();
+
+                        int itemCount = (int)cmd.ExecuteScalar();
+                        conn.Close();
+
+                        if (itemCount == 0)
+                        {
+                            
+                            NoItemFound notFoundForm = new NoItemFound();
+                            notFoundForm.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            SearchLostItem searchlostitem = new SearchLostItem();
+                            searchlostitem.Show();
+                            this.Hide();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while checking reported items: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+
+            
+            
         }
     }
 }

@@ -181,6 +181,7 @@
             tbxName.ForeColor = Color.White;
             tbxName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxName.Location = new Point(107, 249);
+            tbxName.Margin = new Padding(3, 4, 3, 4);
             tbxName.Name = "tbxName";
             tbxName.PasswordChar = '\0';
             tbxName.PlaceholderText = "Name";
@@ -206,6 +207,7 @@
             tbxMail.ForeColor = Color.White;
             tbxMail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxMail.Location = new Point(107, 326);
+            tbxMail.Margin = new Padding(3, 4, 3, 4);
             tbxMail.Name = "tbxMail";
             tbxMail.PasswordChar = '\0';
             tbxMail.PlaceholderText = "Email address";
@@ -231,6 +233,7 @@
             tbxDLost.ForeColor = Color.White;
             tbxDLost.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxDLost.Location = new Point(107, 410);
+            tbxDLost.Margin = new Padding(3, 4, 3, 4);
             tbxDLost.Name = "tbxDLost";
             tbxDLost.PasswordChar = '\0';
             tbxDLost.PlaceholderText = "Date Lost MM/DD/YYYY";
@@ -256,6 +259,7 @@
             tbxItemDesc.ForeColor = Color.White;
             tbxItemDesc.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxItemDesc.Location = new Point(107, 516);
+            tbxItemDesc.Margin = new Padding(3, 4, 3, 4);
             tbxItemDesc.Name = "tbxItemDesc";
             tbxItemDesc.PasswordChar = '\0';
             tbxItemDesc.PlaceholderText = "Item Description";
@@ -369,33 +373,36 @@
             // itemLbl
             // 
             itemLbl.AutoSize = true;
+            itemLbl.Font = new Font("Segoe UI", 14F, FontStyle.Italic);
             itemLbl.ForeColor = Color.SandyBrown;
             itemLbl.Location = new Point(319, 23);
             itemLbl.Name = "itemLbl";
-            itemLbl.Size = new Size(34, 15);
+            itemLbl.Size = new Size(56, 25);
             itemLbl.TabIndex = 27;
             itemLbl.Text = "saass";
             // 
             // typeLbl
             // 
             typeLbl.AutoSize = true;
+            typeLbl.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
             typeLbl.ForeColor = Color.SandyBrown;
             typeLbl.Location = new Point(104, 23);
             typeLbl.Name = "typeLbl";
-            typeLbl.Size = new Size(76, 15);
+            typeLbl.Size = new Size(118, 25);
             typeLbl.TabIndex = 26;
             typeLbl.Text = "weareelectric";
             // 
             // picItem
             // 
+            picItem.Anchor = AnchorStyles.Right;
             picItem.BackColor = Color.Transparent;
             picItem.FillColor = Color.FromArgb(112, 33, 33);
             picItem.ImageRotate = 0F;
-            picItem.Location = new Point(697, 188);
+            picItem.Location = new Point(701, 197);
             picItem.Name = "picItem";
             picItem.ShadowDecoration.CustomizableEdges = customizableEdges14;
             picItem.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            picItem.Size = new Size(592, 490);
+            picItem.Size = new Size(614, 452);
             picItem.SizeMode = PictureBoxSizeMode.AutoSize;
             picItem.TabIndex = 28;
             picItem.TabStop = false;

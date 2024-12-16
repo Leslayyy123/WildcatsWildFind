@@ -94,5 +94,18 @@ namespace WildcatsWildFind
             }
         }
 
+
+
+        private void pbxSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            new RequestRetrieval().Show();
+            this.Hide();
+        }
+
     }
 }

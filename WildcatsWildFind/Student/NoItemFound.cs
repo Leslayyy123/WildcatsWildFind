@@ -75,5 +75,11 @@ namespace WildcatsWildFind.Student
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnRequestRetrieval_Click(object sender, EventArgs e)
+        {
+            new RequestRetrieval().Show();
+            this.Hide();
+        }
     }
 }

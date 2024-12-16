@@ -30,7 +30,7 @@ namespace WildcatsWildFind
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            new HomePage().Show();
+            new SearchLostItem().Show();
             this.Hide();
         }
 
@@ -66,16 +66,39 @@ namespace WildcatsWildFind
                 MessageBox.Show("Please fill in all fields.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            if (!DateTime.TryParseExact(tbxDLost.Text, "MM/dd/yyyy", null, System.Globalization.DateTimeStyles.None, out DateTime dateLost))
+            {
+                MessageBox.Show("Invalid date format. Please use MM/DD/YYYY.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (dateLost > DateTime.Now)
+            {
+                MessageBox.Show("The date lost cannot be in the future.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             try
             {
+                byte[] photoBytes = null;
+                if (picItem.Image != null)
+                {
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        picItem.Image.Save(ms, picItem.Image.RawFormat);
+                        photoBytes = ms.ToArray();
+                    }
+                }
                 
+
+
+
                 string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=WildFind.mdb;";
 
                 using (OleDbConnection conn = new OleDbConnection(connectionString))
                 {
                     
-                    string query = "INSERT INTO RequestRetrieval (studentName, emailAddress, itemName, itemType, itemDescription, dateLost) " +
-                                   "VALUES (@Name, @Mail, @ItemName, @ItemType, @ItemDesc, @DateLost)";
+                    string query = "INSERT INTO RequestRetrieval (studentName, emailAddress, itemName, itemType, itemDescription, dateLost,photo) " +
+                                   "VALUES (@Name, @Mail, @ItemName, @ItemType, @ItemDesc, @DateLost,@Photo)";
 
                     using (OleDbCommand cmd = new OleDbCommand(query, conn))
                     {
@@ -86,7 +109,11 @@ namespace WildcatsWildFind
                         cmd.Parameters.AddWithValue("@ItemType", typeLbl.Text);
                         cmd.Parameters.AddWithValue("@ItemDesc", tbxItemDesc.Text);
                         cmd.Parameters.AddWithValue("@DateLost", tbxDLost.Text);
-
+                        if (picItem.Image != null)
+                        {
+                            cmd.Parameters.AddWithValue("@Photo", picItem.Image);
+                        }
+                        
 
                         conn.Open();
                         cmd.ExecuteNonQuery();
@@ -112,6 +139,7 @@ namespace WildcatsWildFind
                     picItem.Image = Image.FromFile(openFileDialog.FileName);
                 }
             }
+
         }
     }
 }
