@@ -30,7 +30,7 @@ namespace WildcatsWildFind
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            new HomePage().Show();
+            new SearchLostItem().Show();
             this.Hide();
         }
 

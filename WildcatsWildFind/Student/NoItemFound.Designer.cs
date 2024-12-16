@@ -40,10 +40,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            btnRequestRetrieval = new Guna.UI2.WinForms.Guna2Button();
             FilterPanelForDock = new Panel();
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -60,6 +63,7 @@
             pictureBox4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            guna2ShadowPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbxMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).BeginInit();
@@ -81,14 +85,14 @@
             guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox1.Font = new Font("Segoe UI", 9F);
             guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(405, 195);
+            guna2TextBox1.Location = new Point(95, 24);
             guna2TextBox1.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2TextBox1.Size = new Size(635, 45);
+            guna2TextBox1.Size = new Size(592, 45);
             guna2TextBox1.TabIndex = 53;
             // 
             // pictureBox1
@@ -119,6 +123,8 @@
             // 
             guna2ShadowPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel2.BackColor = Color.Transparent;
+            guna2ShadowPanel2.Controls.Add(btnRequestRetrieval);
+            guna2ShadowPanel2.Controls.Add(guna2TextBox1);
             guna2ShadowPanel2.FillColor = Color.FromArgb(241, 234, 234);
             guna2ShadowPanel2.Location = new Point(310, 171);
             guna2ShadowPanel2.Name = "guna2ShadowPanel2";
@@ -126,6 +132,31 @@
             guna2ShadowPanel2.ShadowColor = Color.Black;
             guna2ShadowPanel2.Size = new Size(819, 88);
             guna2ShadowPanel2.TabIndex = 54;
+            // 
+            // btnRequestRetrieval
+            // 
+            btnRequestRetrieval.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnRequestRetrieval.BorderColor = Color.Transparent;
+            btnRequestRetrieval.BorderRadius = 10;
+            btnRequestRetrieval.CustomizableEdges = customizableEdges3;
+            btnRequestRetrieval.DisabledState.BorderColor = Color.DarkGray;
+            btnRequestRetrieval.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnRequestRetrieval.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnRequestRetrieval.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnRequestRetrieval.FillColor = Color.Transparent;
+            btnRequestRetrieval.Font = new Font("Segoe UI", 6F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRequestRetrieval.ForeColor = Color.White;
+            btnRequestRetrieval.Image = (Image)resources.GetObject("btnRequestRetrieval.Image");
+            btnRequestRetrieval.ImageSize = new Size(38, 38);
+            btnRequestRetrieval.Location = new Point(693, 24);
+            btnRequestRetrieval.Margin = new Padding(3, 4, 3, 4);
+            btnRequestRetrieval.Name = "btnRequestRetrieval";
+            btnRequestRetrieval.ShadowDecoration.BorderRadius = 10;
+            btnRequestRetrieval.ShadowDecoration.Color = Color.LightGray;
+            btnRequestRetrieval.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnRequestRetrieval.Size = new Size(45, 45);
+            btnRequestRetrieval.TabIndex = 72;
+            btnRequestRetrieval.Click += btnRequestRetrieval_Click;
             // 
             // FilterPanelForDock
             // 
@@ -139,7 +170,7 @@
             // guna2Button4
             // 
             guna2Button4.BorderRadius = 15;
-            guna2Button4.CustomizableEdges = customizableEdges3;
+            guna2Button4.CustomizableEdges = customizableEdges5;
             guna2Button4.DisabledState.BorderColor = Color.DarkGray;
             guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -153,7 +184,7 @@
             guna2Button4.Location = new Point(131, 53);
             guna2Button4.Name = "guna2Button4";
             guna2Button4.Padding = new Padding(0, 39, 0, 0);
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button4.Size = new Size(101, 88);
             guna2Button4.TabIndex = 50;
             guna2Button4.Text = "Electronics";
@@ -162,7 +193,7 @@
             // guna2Button3
             // 
             guna2Button3.BorderRadius = 15;
-            guna2Button3.CustomizableEdges = customizableEdges5;
+            guna2Button3.CustomizableEdges = customizableEdges7;
             guna2Button3.DisabledState.BorderColor = Color.DarkGray;
             guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -176,7 +207,7 @@
             guna2Button3.Location = new Point(132, 155);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.Padding = new Padding(0, 39, 0, 0);
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2Button3.Size = new Size(101, 88);
             guna2Button3.TabIndex = 49;
             guna2Button3.Text = "School";
@@ -185,7 +216,7 @@
             // guna2Button2
             // 
             guna2Button2.BorderRadius = 15;
-            guna2Button2.CustomizableEdges = customizableEdges7;
+            guna2Button2.CustomizableEdges = customizableEdges9;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -199,7 +230,7 @@
             guna2Button2.Location = new Point(19, 155);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.Padding = new Padding(0, 39, 0, 0);
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button2.Size = new Size(101, 88);
             guna2Button2.TabIndex = 48;
             guna2Button2.Text = "Personal";
@@ -208,7 +239,7 @@
             // guna2Button1
             // 
             guna2Button1.BorderRadius = 15;
-            guna2Button1.CustomizableEdges = customizableEdges9;
+            guna2Button1.CustomizableEdges = customizableEdges11;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -222,7 +253,7 @@
             guna2Button1.Location = new Point(19, 53);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.Padding = new Padding(0, 39, 0, 0);
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button1.Size = new Size(101, 88);
             guna2Button1.TabIndex = 47;
             guna2Button1.Text = "Clothing";
@@ -344,7 +375,6 @@
             Controls.Add(pbxMax);
             Controls.Add(pbxClose);
             Controls.Add(FilterPanelForDock);
-            Controls.Add(guna2TextBox1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Controls.Add(guna2ShadowPanel2);
@@ -355,6 +385,7 @@
             Text = "NoItemFound";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            guna2ShadowPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pbxMin).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxMax).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbxClose).EndInit();
@@ -385,5 +416,6 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel gunaFilterItemBar;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
+        private Guna.UI2.WinForms.Guna2Button btnRequestRetrieval;
     }
 }
