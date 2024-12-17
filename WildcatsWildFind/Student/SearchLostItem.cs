@@ -19,6 +19,8 @@ namespace WildcatsWildFind
         public SearchLostItem()
         {
             InitializeComponent();
+            _items.LoadItem_Type(panelContainer, "Electronics");
+            _items.LoadItem_Type(guna2ShadowPanel3, "NonElectronics");
         }
 
         private void FilterItemTimer_Tick(object sender, EventArgs e)

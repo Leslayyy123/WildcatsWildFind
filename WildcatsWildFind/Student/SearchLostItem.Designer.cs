@@ -379,7 +379,7 @@
             guna2Button7.Size = new Size(46, 35);
             guna2Button7.TabIndex = 63;
             // 
-            // guna2HtmlLabel1
+            // guna2HtmlLabel1 :: ELECTORNICS
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Century Gothic", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -424,7 +424,7 @@
             guna2HtmlLabel2.TabIndex = 66;
             guna2HtmlLabel2.Text = "Non-Electronics";
             // 
-            // panelContainer
+            // panelContainer :: Electronics
             // 
             panelContainer.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             panelContainer.BackColor = Color.Transparent;
@@ -438,7 +438,7 @@
             panelContainer.Size = new Size(970, 179);
             panelContainer.TabIndex = 67;
             // 
-            // guna2ShadowPanel3
+            // guna2ShadowPanel3 :: Non-Electronics
             // 
             guna2ShadowPanel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             guna2ShadowPanel3.BackColor = Color.Transparent;
